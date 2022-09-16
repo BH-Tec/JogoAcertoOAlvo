@@ -1,7 +1,7 @@
 var tela = document.querySelector('canvas')
 var pincel = tela.getContext('2d')
 
-var widthTela = 1000
+var widthTela = 1200
 var heightTela = 500
 
 pincel.fillStyle = 'lightgrey'
