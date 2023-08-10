@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Favicon -->
-    <link rel="shortcut icon" href="./assets/logo.svg" type="image/x-icon" />
+    <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon" />
     <!-- CSS -->
     <link rel="stylesheet" href="./css/style.css" />
     <!-- Font Awesone -->
@@ -20,13 +20,24 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;900&family=Roboto&display=swap"
       rel="stylesheet"
     />
-    <title>Acerte o Alvo | Bruno H</title>
+    <!-- GOOGLE ANALYTICS -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-TJQ2XJZPTD"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "G-TJQ2XJZPTD");
+    </script>
+    <title>Acerte o Alvo | Bruno Dórea</title>
   </head>
   <h1>Acerte o alvo</h1>
 
-  <canvas width="1200" height="500">
-  </canvas>
+  <canvas width="1200" height="500"> </canvas>
 
   <script src="./js/main.js"></script>
-
 </html>
